@@ -46,6 +46,34 @@ Drawer drawer(context) {
             //   Navigator.pop(context);
           },
         ),
+        ListTile(
+          title: Text('Fourth Page'),
+          onTap: () {
+            // Update the state of the app
+            // ...
+            // Then close the drawer
+            Navigator.pushNamed((context), '/forth');
+            //   Navigator.pop(context);
+          },
+        ),
+        ListTile(
+          title: Text('Fifth Page'),
+          onTap: () {
+            // Update the state of the app
+            // Then close the drawer
+            Navigator.pushNamed((context), '/fifth');
+            //   Navigator.pop(context);
+          },
+        ), 
+          ListTile(
+          title: Text('Six Page'),
+          onTap: () {
+            // Update the state of the app
+            // Then close the drawer
+            Navigator.pushNamed((context), '/six');
+            //   Navigator.pop(context);
+          },
+        ),
       ],
     ),
   );
