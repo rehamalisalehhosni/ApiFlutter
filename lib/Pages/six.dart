@@ -4,9 +4,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:appnew/model/User.dart';
-import 'package:appnew/Util/datatbaseHelper.dart';
+import 'package:appnew/ui/listViewEmployee.dart';
 
 List users;
 
@@ -28,9 +26,8 @@ class _SixPageState extends State<SixPage> {
           ],
         ),
         drawer: drawer(context),
-        body: new Container(
-          child: 
-        ));
+        body: new ListViewEmployee(),
+        );
   }
 }
 

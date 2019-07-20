@@ -1,4 +1,4 @@
-#Sat Jul 20 19:25:02 EET 2019
+#Sun Jul 21 00:48:19 EET 2019
 base.0=/home/homa/flutter_intel/appnew/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

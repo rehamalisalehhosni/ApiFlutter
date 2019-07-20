@@ -32,7 +32,7 @@ class EmployeeDatatbaseHelper {
 
   void _onCreate(Database db, int newversion) async {
     var sql =
-        "CREATE TABLE $employeeTable($columnId INTEGER PRIMARY KEY, $columnName TEXT, $columnEmail TEXT , $columnDepartment TEXT , $columnAge TEXT, $columnDescription TEXT )";
+        "CREATE TABLE $employeeTable($columnId INTEGER PRIMARY KEY , $columnName TEXT, $columnEmail TEXT , $columnDepartment TEXT , $columnAge TEXT, $columnDescription TEXT )";
     return db.execute(sql);
   }
 

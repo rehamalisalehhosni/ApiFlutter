@@ -6,7 +6,7 @@ class Employee {
   String _age;
   String _description;
 
-  Employee(this._id, this._name, this._email, this._department, this._age,
+  Employee( this._name, this._email, this._department, this._age,
       this._description);
   Employee.map(dynamic obj) {
     this._id = obj['id'];
